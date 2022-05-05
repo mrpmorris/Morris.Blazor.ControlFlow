@@ -1,26 +1,39 @@
 # Morris.Blazor.ControlFlow
 
-## New in 1.0.0
-- `ForEach`
+![](./Images/control-flow-logo.png)
+
+
+## Introduction
+[![NuGet version (Morris.Blazor.ControlFlow)](https://img.shields.io/nuget/v/Morris.Blazor.ControlFlow.svg?style=flat-square)](https://www.nuget.org/packages/Morris.Blazor.ControlFlow/)
+
+***ControlFlow*** is a Blazor library created to help reduce the amount of C#
+code found in markup files.
+
+Instead of this
 ```
-<ForEach Context=Person In=@People>
-  <li>@Person.Name</li>
+@if (People?.Length > 0)
+{
+  <ol>
+    @foreach (var person in People)
+    {
+      <li>@person.FullName</li>
+    }
+  </ol>
+}
 ```
 
-- Simple `If`
+You can write this
+
 ```
-<If Condition=@true>
-	Content
+<If Condition="People?.Length > 0">
+  <ol>
+    <ForEach Context=person In=People>
+      <li>@person.FullName</li>
+    </ForEach>
+  </ol>
 </If>
 ```
-- `If` with `Else`
-```
-<If Condition=@true>
-	<Then>
-		Content
-	</Then>
-	<Else>
-		Other content
-	</Else>
-</If>
-```
+
+## More information
+- View the [Example projects](https://github.com/mrpmorris/Morris.Blazor.ControlFlow/tree/master/Source/Tutorials)
+- Read the [Release notes](./Docs/Releases.md)

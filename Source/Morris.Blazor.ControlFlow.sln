@@ -7,6 +7,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 	ProjectSection(SolutionItems) = preProject
 		.editorconfig = .editorconfig
 		Lib\Directory.Build.props = Lib\Directory.Build.props
+		..\README.md = ..\README.md
 	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Morris.Blazor.ControlFlow", "Lib\Morris.Blazor.ControlFlow\Morris.Blazor.ControlFlow.csproj", "{5B499DA3-0DB1-48A5-B8E5-3E0B04F53EB7}"
@@ -15,11 +16,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tutorials", "Tutorials", "{
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ForEachExample", "Tutorials\ForEachExample\ForEachExample.csproj", "{E438D699-B285-4F8A-8087-095765599DFA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IfThenElseSample", "Tutorials\IfThenElseSample\IfThenElseSample.csproj", "{06B9F71D-5203-4CDD-90A5-627BACFADA75}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IfThenElseSample", "Tutorials\IfThenElseSample\IfThenElseSample.csproj", "{06B9F71D-5203-4CDD-90A5-627BACFADA75}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Docs", "Docs", "{CE4D64CF-C516-4E76-8D3B-8F45E795F4D2}"
 	ProjectSection(SolutionItems) = preProject
-		..\README.md = ..\README.md
+		..\Docs\Releases.md = ..\Docs\Releases.md
 	EndProjectSection
 EndProject
 Global
