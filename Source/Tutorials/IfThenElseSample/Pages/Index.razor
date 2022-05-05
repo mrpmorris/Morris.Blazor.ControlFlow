@@ -1,0 +1,26 @@
+﻿@page "/"
+
+<PageTitle>Index</PageTitle>
+<EditForm Model=@this>
+	<InputCheckbox id="IsChecked" @bind-Value=IsChecked /><label for="IsChecked">Show content</label>
+</EditForm>
+
+<div class="row">
+	<If Condition=@IsChecked>
+		<h3 class="col-6">This is the first &lt;If&gt; block</h3>
+	</If>
+
+	<If Condition=@IsChecked>
+		<Then>
+			<h3 class="col-6">This is the &lt;If&gt;&lt;Then&gt; block</h3>
+		</Then>
+		<Else>
+			<h3 class="col-6">This is the &lt;If&gt;&lt;Else&gt; block</h3>
+		</Else>
+	</If>
+</div>
+
+@code
+{
+	bool IsChecked = true;
+}

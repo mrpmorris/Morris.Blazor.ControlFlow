@@ -23,7 +23,7 @@ else
 			</tr>
 		</thead>
 		<tbody>
-			<ForEach Context="forecast" Items=@forecasts>
+			<ForEach Context=forecast In=@forecasts>
 				<tr>
 					<td>@forecast.Date.ToShortDateString()</td>
 					<td>@forecast.TemperatureC</td>
