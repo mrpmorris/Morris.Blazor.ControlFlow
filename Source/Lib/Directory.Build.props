@@ -13,7 +13,6 @@
 		<PackageLicenseExpression>MIT</PackageLicenseExpression>
 
 		<PackageProjectUrl>https://github.com/mrpmorris/Morris.Blazor.ControlFlow</PackageProjectUrl>
-		<PackageIconUrl />
 		<RepositoryUrl>https://github.com/mrpmorris/Morris.Blazor.ControlFlow</RepositoryUrl>
 		<RepositoryType>git</RepositoryType>
 	</PropertyGroup>

@@ -1,6 +1,6 @@
 # Morris.Blazor.ControlFlow
 
-![](./Images/control-flow-logo.png)
+![](https://raw.githubusercontent.com/mrpmorris/Morris.Blazor.ControlFlow/master/Images/control-flow-logo.png)
 
 
 ## Introduction
@@ -36,4 +36,4 @@ You can write this
 
 ## More information
 - View the [Example projects](https://github.com/mrpmorris/Morris.Blazor.ControlFlow/tree/master/Source/Tutorials)
-- Read the [Release notes](./Docs/Releases.md)
+- Read the [Release notes](https://github.com/mrpmorris/Morris.Blazor.ControlFlow/blob/master/Docs/Releases.md)

@@ -1,6 +1,6 @@
 # Morris.Blazor.ControlFlow
 
-![](../Images/control-flow-logo.png)
+![](https://raw.githubusercontent.com/mrpmorris/Morris.Blazor.ControlFlow/master/Images/control-flow-logo.png)
 
 
 ## Releases
