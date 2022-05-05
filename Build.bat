@@ -1,0 +1,1 @@
+dotnet build Source\Fluxor.sln -c Release

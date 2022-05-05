@@ -1,0 +1,5 @@
+﻿@typeparam TItem
+@foreach(TItem item in Items ?? Enumerable.Empty<TItem>())
+{
+	@ChildContent!(item!)
+}
