@@ -1,1 +1,1 @@
-dotnet build Source\Fluxor.sln -c Release
+dotnet build Source\Morris.Blazor.ControlFlow.sln -c Release
