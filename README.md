@@ -34,6 +34,40 @@ You can write this
 </If>
 ```
 
+Instead of this
+```
+@if (People?.Length > 0)
+{
+  <ol>
+    @foreach (var person in People)
+    {
+      <li>@person.FullName</li>
+    }
+  </ol>
+}
+else
+{
+  <p>No people found</p>
+}
+```
+
+You can write this
+
+```
+<If Condition="People?.Length > 0">
+  <Then>
+    <ol>
+      <ForEach Context=person In=People>
+        <li>@person.FullName</li>
+      </ForEach>
+    </ol>
+  </Then>
+  <Else>
+    <p>No people found</p>
+  </Else>
+</If>
+```
+
 ## More information
 - View the [Example projects](https://github.com/mrpmorris/Morris.Blazor.ControlFlow/tree/master/Source/Tutorials)
 - Read the [Release notes](https://github.com/mrpmorris/Morris.Blazor.ControlFlow/blob/master/Docs/Releases.md)
