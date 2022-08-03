@@ -4,11 +4,24 @@
 
 
 ## Releases
+
+### New in 1.1.0
+- `ForEachWithIndex`
+
+```
+<ForEachWithIndex Context=item in @People>
+  <tr>
+    <td>@item.Index
+    <td>@item.Value.Name
+  </tr>
+</ForEachWithIndex>
+```
+
 ### New in 1.0.0
 - `ForEach`
 ```
-<ForEach Context=Person In=@People>
-  <li>@Person.Name</li>
+<ForEach Context=person In=@People>
+  <li>@person.Name</li>
 ```
 
 - Simple `If`
