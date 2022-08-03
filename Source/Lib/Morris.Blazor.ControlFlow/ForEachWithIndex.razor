@@ -1,0 +1,9 @@
+﻿@typeparam TItem
+@{
+    int i = 0;
+    foreach (TItem value in In ?? Enumerable.Empty<TItem>())
+    {
+        var item = new ValueWithIndex<TItem>(value!, i++);
+        @ChildContent!(item);
+    }
+}
