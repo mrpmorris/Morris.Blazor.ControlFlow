@@ -23,6 +23,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Docs", "Docs", "{CE4D64CF-C
 		..\Docs\Releases.md = ..\Docs\Releases.md
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lib", "Lib", "{33158399-9AA3-49EE-988C-10FCA83F5B85}"
+	ProjectSection(SolutionItems) = preProject
+		Lib\Directory.Build.props = Lib\Directory.Build.props
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -46,6 +51,7 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
+		{5B499DA3-0DB1-48A5-B8E5-3E0B04F53EB7} = {33158399-9AA3-49EE-988C-10FCA83F5B85}
 		{E438D699-B285-4F8A-8087-095765599DFA} = {77B146CD-F531-47CE-A163-2CB4136B2BA9}
 		{06B9F71D-5203-4CDD-90A5-627BACFADA75} = {77B146CD-F531-47CE-A163-2CB4136B2BA9}
 	EndGlobalSection
