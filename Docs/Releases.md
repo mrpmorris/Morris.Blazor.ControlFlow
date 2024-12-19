@@ -5,6 +5,9 @@
 
 ## Releases
 
+### New in 2.1
+- Support only .NET 8 and 9.
+
 ### New in 2.0
 - Add support for .NET 7
 - Remove support for .NET frameworks no longer supported by Microsoft

@@ -1,1 +1,0 @@
-dotnet build Source\Morris.Blazor.ControlFlow.sln -c Release
